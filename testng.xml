@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.mystore.utilities.ExtendListener"/>
+</listeners>
+	<test name="CreateAccountTest">
+		<classes>
+			<class name="com.mystore.testcases.TC_SignupPageTest">
+				<methods>
+					<exclude name="createNewAccountTest"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="SigninTest">
+		<classes>
+			<class name="com.mystore.testcases.TC_SigninPageTest"/>
+		</classes>
+	</test>
+	<test name="DataDrivenTest">
+		<classes>
+			<class name="com.mystore.testcases.TC_DD_SigninPageTest"/>
+		</classes>
+	</test>
+	<test name="SearchProductTest">
+		<classes>
+			<class name="com.mystore.testcases.TC_SearchProductPageTest">
+				<methods>
+					<include name="VerifyUrlOpen"></include>
+					<include name="VerifyLogin"></include>
+					<include name="VerifyNavigatetoLogin"></include>
+					<include name="VerifyLoginPageOpen"></include>
+					<include name="VerifyEmailLoggingIn"></include>
+					<include name="VerifyPwdLoggingIn"></include>
+					<include name="VerifySignInButtonLoggingIn"></include>
+					<include name="VerifySearchEntry"></include>
+					<include name="VerifyRedirectSearch"></include>
+					<include name="VerifyAssertSearchEntry"></include>
+					<include name="VerifySearchProductFound"></include>
+					<include name="VerifySearchedProductLink"></include>
+					<exclude name="VerifySizeofProductPage"></exclude>
+					<exclude name="VerifyColorofProduct"></exclude>
+					<exclude name="VerifyProdAddtoCart"></exclude>
+					<exclude name="VerifyProdAddedToCartAlertPresent"></exclude>
+	
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="BuyProductTest">
+		<classes>
+			<class name="com.mystore.testcases.TC_ProductPaymentPageTest">
+				<methods>
+					<include name="VerifyUrltoSearchProduct"></include>
+					<include name="VerifyLogIn"></include>
+					<include name="VerifyLogInOpen"></include>
+					<include name="VerifySetEmail"></include>
+					<include name="VerifySetPwd"></include>
+					<include name="VerifyLogInSubmit"></include>
+					<include name="VerifySearchedEntry"></include>
+					<include name="VerifyRedirecttoProductItem"></include>
+					<include name="VerifyAssertProdEntryandPage"></include>
+					<include name="VerifyGetSearchedProd"></include>
+					<include name="VerifyProdSize"></include>
+					<include name="VerifyProdColor"></include>
+					<include name="VerifyaddtocartButton"></include>
+					<include name="VerifyProdAlertMsg"></include>
+					<include name="VerifyAddtoCartDropdown"></include>
+					<include name="VerifyProceedtoCheckout"></include>
+					<include name="VerifyCheckShippingUrl"></include>
+					<include name="VerifyShippingOrder"></include>
+					<include name="VerifyClickNext"></include>
+					<include name="VerifycheckUrl"></include>
+					<include name="VerifyPlaceOrderButton"></include>
+					<include name="VerifycheckoutSuccess"></include>
+					<include name="VerifyClickOrderNumber"></include>
+					<include name="VerifyPrintOrder"></include>
+					<include name="VerifyCloseDriver"></include>
+					<include name="VerifyViewOrderId"></include>
+					<include name="VerifyDropdownLogout"></include>
+					<include name="VerifylogoutButton"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

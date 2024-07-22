@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.mystore.utilities.ExtendListener"/>
+  </listeners>
+  <test thread-count="5" name="BuyProductTest(failed)">
+    <classes>
+      <class name="com.mystore.testcases.TC_ProductPaymentPageTest">
+        <methods>
+          <include name="VerifyPrintOrder"/>
+          <include name="VerifyProdAlertMsg"/>
+          <include name="VerifycheckUrl"/>
+          <include name="VerifyRedirecttoProductItem"/>
+          <include name="VerifycheckoutSuccess"/>
+          <include name="teardown"/>
+          <include name="VerifyProdColor"/>
+          <include name="VerifylogoutButton"/>
+          <include name="VerifyDropdownLogout"/>
+          <include name="VerifyCheckShippingUrl"/>
+          <include name="setup"/>
+          <include name="VerifySetPwd"/>
+          <include name="VerifyClickOrderNumber"/>
+          <include name="VerifyPlaceOrderButton"/>
+          <include name="VerifyaddtocartButton"/>
+          <include name="VerifyUrltoSearchProduct"/>
+          <include name="VerifyAddtoCartDropdown"/>
+          <include name="VerifyCloseDriver"/>
+          <include name="VerifyViewOrderId"/>
+          <include name="VerifyClickNext"/>
+          <include name="VerifySetEmail"/>
+          <include name="VerifyGetSearchedProd"/>
+          <include name="VerifyProdSize"/>
+          <include name="VerifyAssertProdEntryandPage"/>
+          <include name="VerifyShippingOrder"/>
+          <include name="VerifyLogIn"/>
+          <include name="VerifyLogInSubmit"/>
+          <include name="VerifySearchedEntry"/>
+          <include name="VerifyProceedtoCheckout"/>
+        </methods>
+      </class> <!-- com.mystore.testcases.TC_ProductPaymentPageTest -->
+    </classes>
+  </test> <!-- BuyProductTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

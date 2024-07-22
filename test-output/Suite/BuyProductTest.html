@@ -1,0 +1,220 @@
+<html>
+<head>
+<title>TestNG:  BuyProductTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BuyProductTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>28/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jul 20 13:49:42 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>35 seconds (35206 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifyClickOrderNumber()'><b>VerifyClickOrderNumber</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifyCheckShippingUrl()'><b>VerifyCheckShippingUrl</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifycheckUrl()'><b>VerifycheckUrl</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifyaddtocartButton()'><b>VerifyaddtocartButton</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdColor()'><b>VerifyProdColor</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifyUrltoSearchProduct()'><b>VerifyUrltoSearchProduct</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogInSubmit()'><b>VerifyLogInSubmit</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifyPrintOrder()'><b>VerifyPrintOrder</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifyDropdownLogout()'><b>VerifyDropdownLogout</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProceedtoCheckout()'><b>VerifyProceedtoCheckout</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogInOpen()'><b>VerifyLogInOpen</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdAlertMsg()'><b>VerifyProdAlertMsg</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifyClickNext()'><b>VerifyClickNext</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetPwd()'><b>VerifySetPwd</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifyViewOrderId()'><b>VerifyViewOrderId</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifyShippingOrder()'><b>VerifyShippingOrder</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetEmail()'><b>VerifySetEmail</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAssertProdEntryandPage()'><b>VerifyAssertProdEntryandPage</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifyGetSearchedProd()'><b>VerifyGetSearchedProd</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifySearchedEntry()'><b>VerifySearchedEntry</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdSize()'><b>VerifyProdSize</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifyPlaceOrderButton()'><b>VerifyPlaceOrderButton</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifylogoutButton()'><b>VerifylogoutButton</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifyCloseDriver()'><b>VerifyCloseDriver</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAddtoCartDropdown()'><b>VerifyAddtoCartDropdown</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifyRedirecttoProductItem()'><b>VerifyRedirecttoProductItem</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn()'><b>VerifyLogIn</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+<tr>
+<td title='com.mystore.testcases.TC_ProductPaymentPageTest.VerifycheckoutSuccess()'><b>VerifycheckoutSuccess</b><br>Test class: com.mystore.testcases.TC_ProductPaymentPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.mystore.testcases.TC_ProductPaymentPageTest@448c8166</td></tr>
+</table><p>
+</body>
+</html>

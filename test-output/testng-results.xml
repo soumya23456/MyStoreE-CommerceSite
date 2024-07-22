@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="46" passed="46" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-20T13:47:42 IST" name="Suite" finished-at="2024-07-20T13:50:18 IST" duration-ms="156010">
+    <groups>
+    </groups>
+    <test started-at="2024-07-20T13:47:42 IST" name="CreateAccountTest" finished-at="2024-07-20T13:47:42 IST" duration-ms="210">
+    </test> <!-- CreateAccountTest -->
+    <test started-at="2024-07-20T13:47:42 IST" name="SigninTest" finished-at="2024-07-20T13:47:55 IST" duration-ms="12967">
+      <class name="com.mystore.testcases.TC_SigninPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.TC_SigninPageTest@25df00a0]" started-at="2024-07-20T13:47:42 IST" name="setup" finished-at="2024-07-20T13:47:48 IST" duration-ms="6349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifySignIn()[pri:0, instance:com.mystore.testcases.TC_SigninPageTest@25df00a0]" started-at="2024-07-20T13:47:48 IST" name="VerifySignIn" finished-at="2024-07-20T13:47:55 IST" duration-ms="6131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySignIn -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.testcases.TC_SigninPageTest@25df00a0]" started-at="2024-07-20T13:47:55 IST" name="teardown" finished-at="2024-07-20T13:47:55 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mystore.testcases.TC_SigninPageTest -->
+    </test> <!-- SigninTest -->
+    <test started-at="2024-07-20T13:47:55 IST" name="DataDrivenTest" finished-at="2024-07-20T13:49:29 IST" duration-ms="93891">
+      <class name="com.mystore.testcases.TC_DD_SigninPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.TC_DD_SigninPageTest@5340477f]" started-at="2024-07-20T13:47:55 IST" name="setup" finished-at="2024-07-20T13:48:00 IST" duration-ms="4885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifySigninPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.TC_DD_SigninPageTest@5340477f]" started-at="2024-07-20T13:48:01 IST" name="VerifySigninPage" data-provider="LoginDataProvider" finished-at="2024-07-20T13:48:21 IST" duration-ms="19962" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[johnDrew@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[John Drew]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySigninPage -->
+        <test-method signature="VerifySigninPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.TC_DD_SigninPageTest@5340477f]" started-at="2024-07-20T13:48:21 IST" name="VerifySigninPage" data-provider="LoginDataProvider" finished-at="2024-07-20T13:48:43 IST" duration-ms="21793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[johnDrew@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[John Drew]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySigninPage -->
+        <test-method signature="VerifySigninPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.TC_DD_SigninPageTest@5340477f]" started-at="2024-07-20T13:48:43 IST" name="VerifySigninPage" data-provider="LoginDataProvider" finished-at="2024-07-20T13:48:57 IST" duration-ms="13880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySigninPage -->
+        <test-method signature="VerifySigninPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.TC_DD_SigninPageTest@5340477f]" started-at="2024-07-20T13:48:57 IST" name="VerifySigninPage" data-provider="LoginDataProvider" finished-at="2024-07-20T13:49:13 IST" duration-ms="16305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[johDrew@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySigninPage -->
+        <test-method signature="VerifySigninPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.TC_DD_SigninPageTest@5340477f]" started-at="2024-07-20T13:49:13 IST" name="VerifySigninPage" data-provider="LoginDataProvider" finished-at="2024-07-20T13:49:29 IST" duration-ms="15871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[johnDrew@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySigninPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.testcases.TC_DD_SigninPageTest@5340477f]" started-at="2024-07-20T13:49:29 IST" name="teardown" finished-at="2024-07-20T13:49:29 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mystore.testcases.TC_DD_SigninPageTest -->
+    </test> <!-- DataDrivenTest -->
+    <test started-at="2024-07-20T13:49:29 IST" name="SearchProductTest" finished-at="2024-07-20T13:49:42 IST" duration-ms="13099">
+      <class name="com.mystore.testcases.TC_SearchProductPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.TC_SearchProductPageTest@7d3e8655]" started-at="2024-07-20T13:49:29 IST" name="setup" finished-at="2024-07-20T13:49:34 IST" duration-ms="5157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyUrlOpen()[pri:0, instance:com.mystore.testcases.TC_SearchProductPageTest@7d3e8655]" started-at="2024-07-20T13:49:34 IST" name="VerifyUrlOpen" finished-at="2024-07-20T13:49:34 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUrlOpen -->
+        <test-method signature="VerifyLogin()[pri:0, instance:com.mystore.testcases.TC_SearchProductPageTest@7d3e8655]" started-at="2024-07-20T13:49:34 IST" name="VerifyLogin" finished-at="2024-07-20T13:49:36 IST" duration-ms="1811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method signature="VerifyNavigatetoLogin()[pri:0, instance:com.mystore.testcases.TC_SearchProductPageTest@7d3e8655]" started-at="2024-07-20T13:49:36 IST" name="VerifyNavigatetoLogin" finished-at="2024-07-20T13:49:36 IST" depends-on-methods="com.mystore.testcases.TC_SearchProductPageTest.VerifyLogin" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNavigatetoLogin -->
+        <test-method signature="VerifyLoginPageOpen()[pri:0, instance:com.mystore.testcases.TC_SearchProductPageTest@7d3e8655]" started-at="2024-07-20T13:49:36 IST" name="VerifyLoginPageOpen" finished-at="2024-07-20T13:49:36 IST" depends-on-methods="com.mystore.testcases.TC_SearchProductPageTest.VerifyNavigatetoLogin, com.mystore.testcases.TC_SearchProductPageTest.VerifyLogin" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginPageOpen -->
+        <test-method signature="VerifyEmailLoggingIn()[pri:0, instance:com.mystore.testcases.TC_SearchProductPageTest@7d3e8655]" started-at="2024-07-20T13:49:36 IST" name="VerifyEmailLoggingIn" finished-at="2024-07-20T13:49:36 IST" depends-on-methods="com.mystore.testcases.TC_SearchProductPageTest.VerifyNavigatetoLogin, com.mystore.testcases.TC_SearchProductPageTest.VerifyLoginPageOpen, com.mystore.testcases.TC_SearchProductPageTest.VerifyLogin" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEmailLoggingIn -->
+        <test-method signature="VerifyPwdLoggingIn()[pri:0, instance:com.mystore.testcases.TC_SearchProductPageTest@7d3e8655]" started-at="2024-07-20T13:49:36 IST" name="VerifyPwdLoggingIn" finished-at="2024-07-20T13:49:36 IST" depends-on-methods="com.mystore.testcases.TC_SearchProductPageTest.VerifyNavigatetoLogin, com.mystore.testcases.TC_SearchProductPageTest.VerifyLoginPageOpen, com.mystore.testcases.TC_SearchProductPageTest.VerifyLogin" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPwdLoggingIn -->
+        <test-method signature="VerifySignInButtonLoggingIn()[pri:0, instance:com.mystore.testcases.TC_SearchProductPageTest@7d3e8655]" started-at="2024-07-20T13:49:36 IST" name="VerifySignInButtonLoggingIn" finished-at="2024-07-20T13:49:39 IST" depends-on-methods="com.mystore.testcases.TC_SearchProductPageTest.VerifyNavigatetoLogin, com.mystore.testcases.TC_SearchProductPageTest.VerifyLoginPageOpen, com.mystore.testcases.TC_SearchProductPageTest.VerifyLogin" duration-ms="2789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySignInButtonLoggingIn -->
+        <test-method signature="VerifySearchEntry()[pri:0, instance:com.mystore.testcases.TC_SearchProductPageTest@7d3e8655]" started-at="2024-07-20T13:49:39 IST" name="VerifySearchEntry" finished-at="2024-07-20T13:49:41 IST" depends-on-methods="com.mystore.testcases.TC_SearchProductPageTest.VerifyNavigatetoLogin, com.mystore.testcases.TC_SearchProductPageTest.VerifySignInButtonLoggingIn, com.mystore.testcases.TC_SearchProductPageTest.VerifyLoginPageOpen, com.mystore.testcases.TC_SearchProductPageTest.VerifyLogin" duration-ms="2060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchEntry -->
+        <test-method signature="VerifyRedirectSearch()[pri:0, instance:com.mystore.testcases.TC_SearchProductPageTest@7d3e8655]" started-at="2024-07-20T13:49:41 IST" name="VerifyRedirectSearch" finished-at="2024-07-20T13:49:41 IST" depends-on-methods="com.mystore.testcases.TC_SearchProductPageTest.VerifyNavigatetoLogin, com.mystore.testcases.TC_SearchProductPageTest.VerifySignInButtonLoggingIn, com.mystore.testcases.TC_SearchProductPageTest.VerifyLoginPageOpen, com.mystore.testcases.TC_SearchProductPageTest.VerifyLogin, com.mystore.testcases.TC_SearchProductPageTest.VerifySearchEntry" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRedirectSearch -->
+        <test-method signature="VerifyAssertSearchEntry()[pri:0, instance:com.mystore.testcases.TC_SearchProductPageTest@7d3e8655]" started-at="2024-07-20T13:49:41 IST" name="VerifyAssertSearchEntry" finished-at="2024-07-20T13:49:41 IST" depends-on-methods="com.mystore.testcases.TC_SearchProductPageTest.VerifyNavigatetoLogin, com.mystore.testcases.TC_SearchProductPageTest.VerifySignInButtonLoggingIn, com.mystore.testcases.TC_SearchProductPageTest.VerifyLoginPageOpen, com.mystore.testcases.TC_SearchProductPageTest.VerifyLogin, com.mystore.testcases.TC_SearchProductPageTest.VerifySearchEntry" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAssertSearchEntry -->
+        <test-method signature="VerifySearchProductFound()[pri:0, instance:com.mystore.testcases.TC_SearchProductPageTest@7d3e8655]" started-at="2024-07-20T13:49:41 IST" name="VerifySearchProductFound" finished-at="2024-07-20T13:49:42 IST" depends-on-methods="com.mystore.testcases.TC_SearchProductPageTest.VerifyNavigatetoLogin, com.mystore.testcases.TC_SearchProductPageTest.VerifySignInButtonLoggingIn, com.mystore.testcases.TC_SearchProductPageTest.VerifyLoginPageOpen, com.mystore.testcases.TC_SearchProductPageTest.VerifyLogin, com.mystore.testcases.TC_SearchProductPageTest.VerifySearchEntry" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchProductFound -->
+        <test-method signature="VerifySearchedProductLink()[pri:0, instance:com.mystore.testcases.TC_SearchProductPageTest@7d3e8655]" started-at="2024-07-20T13:49:42 IST" name="VerifySearchedProductLink" finished-at="2024-07-20T13:49:42 IST" depends-on-methods="com.mystore.testcases.TC_SearchProductPageTest.VerifyNavigatetoLogin, com.mystore.testcases.TC_SearchProductPageTest.VerifySignInButtonLoggingIn, com.mystore.testcases.TC_SearchProductPageTest.VerifyLoginPageOpen, com.mystore.testcases.TC_SearchProductPageTest.VerifyLogin, com.mystore.testcases.TC_SearchProductPageTest.VerifySearchEntry" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchedProductLink -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.testcases.TC_SearchProductPageTest@7d3e8655]" started-at="2024-07-20T13:49:42 IST" name="teardown" finished-at="2024-07-20T13:49:42 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mystore.testcases.TC_SearchProductPageTest -->
+    </test> <!-- SearchProductTest -->
+    <test started-at="2024-07-20T13:49:42 IST" name="BuyProductTest" finished-at="2024-07-20T13:50:18 IST" duration-ms="35206">
+      <class name="com.mystore.testcases.TC_ProductPaymentPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:49:42 IST" name="setup" finished-at="2024-07-20T13:49:49 IST" duration-ms="6542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyUrltoSearchProduct()[pri:0, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:49:49 IST" name="VerifyUrltoSearchProduct" finished-at="2024-07-20T13:49:49 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUrltoSearchProduct -->
+        <test-method signature="VerifyLogIn()[pri:1, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:49:49 IST" name="VerifyLogIn" finished-at="2024-07-20T13:49:50 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifyUrltoSearchProduct" duration-ms="1146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogIn -->
+        <test-method signature="VerifyLogInOpen()[pri:2, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:49:50 IST" name="VerifyLogInOpen" finished-at="2024-07-20T13:49:50 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifyUrltoSearchProduct, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogInOpen -->
+        <test-method signature="VerifySetEmail()[pri:3, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:49:50 IST" name="VerifySetEmail" finished-at="2024-07-20T13:49:50 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySetEmail -->
+        <test-method signature="VerifySetPwd()[pri:4, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:49:50 IST" name="VerifySetPwd" finished-at="2024-07-20T13:49:50 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySetPwd -->
+        <test-method signature="VerifyLogInSubmit()[pri:5, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:49:50 IST" name="VerifyLogInSubmit" finished-at="2024-07-20T13:49:52 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn" duration-ms="1985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogInSubmit -->
+        <test-method signature="VerifySearchedEntry()[pri:6, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:49:52 IST" name="VerifySearchedEntry" finished-at="2024-07-20T13:49:54 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetEmail, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyUrltoSearchProduct, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogInSubmit, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetPwd" duration-ms="1958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchedEntry -->
+        <test-method signature="VerifyRedirecttoProductItem()[pri:7, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:49:54 IST" name="VerifyRedirecttoProductItem" finished-at="2024-07-20T13:49:54 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetEmail, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyUrltoSearchProduct, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogInSubmit, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetPwd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySearchedEntry" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRedirecttoProductItem -->
+        <test-method signature="VerifyAssertProdEntryandPage()[pri:8, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:49:54 IST" name="VerifyAssertProdEntryandPage" finished-at="2024-07-20T13:49:54 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifyRedirecttoProductItem, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetEmail, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyUrltoSearchProduct, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogInSubmit, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetPwd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySearchedEntry" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAssertProdEntryandPage -->
+        <test-method signature="VerifyGetSearchedProd()[pri:9, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:49:54 IST" name="VerifyGetSearchedProd" finished-at="2024-07-20T13:49:55 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifyRedirecttoProductItem, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetEmail, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyUrltoSearchProduct, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogInSubmit, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAssertProdEntryandPage, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetPwd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySearchedEntry" duration-ms="665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyGetSearchedProd -->
+        <test-method signature="VerifyProdSize()[pri:10, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:49:55 IST" name="VerifyProdSize" finished-at="2024-07-20T13:49:55 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifyRedirecttoProductItem, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyGetSearchedProd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetEmail, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyUrltoSearchProduct, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogInSubmit, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAssertProdEntryandPage, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetPwd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySearchedEntry" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProdSize -->
+        <test-method signature="VerifyProdColor()[pri:11, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:49:55 IST" name="VerifyProdColor" finished-at="2024-07-20T13:49:55 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifyRedirecttoProductItem, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyGetSearchedProd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetEmail, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyUrltoSearchProduct, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogInSubmit, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAssertProdEntryandPage, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetPwd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySearchedEntry" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProdColor -->
+        <test-method signature="VerifyaddtocartButton()[pri:12, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:49:55 IST" name="VerifyaddtocartButton" finished-at="2024-07-20T13:49:56 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifyRedirecttoProductItem, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyGetSearchedProd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetEmail, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyUrltoSearchProduct, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogInSubmit, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAssertProdEntryandPage, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetPwd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySearchedEntry" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyaddtocartButton -->
+        <test-method signature="VerifyProdAlertMsg()[pri:13, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:49:56 IST" name="VerifyProdAlertMsg" finished-at="2024-07-20T13:49:58 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifyRedirecttoProductItem, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyGetSearchedProd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetEmail, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdColor, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyaddtocartButton, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyUrltoSearchProduct, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogInSubmit, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAssertProdEntryandPage, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetPwd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySearchedEntry, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdSize" duration-ms="2613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProdAlertMsg -->
+        <test-method signature="VerifyAddtoCartDropdown()[pri:14, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:49:58 IST" name="VerifyAddtoCartDropdown" finished-at="2024-07-20T13:49:58 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifyUrltoSearchProduct, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogInSubmit, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetPwd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdAlertMsg, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySearchedEntry, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyRedirecttoProductItem, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyGetSearchedProd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetEmail, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdColor, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyaddtocartButton, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAssertProdEntryandPage, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdSize" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddtoCartDropdown -->
+        <test-method signature="VerifyProceedtoCheckout()[pri:15, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:49:58 IST" name="VerifyProceedtoCheckout" finished-at="2024-07-20T13:50:01 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifyUrltoSearchProduct, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogInSubmit, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetPwd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAddtoCartDropdown, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdAlertMsg, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySearchedEntry, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyRedirecttoProductItem, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyGetSearchedProd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetEmail, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdColor, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyaddtocartButton, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAssertProdEntryandPage, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdSize" duration-ms="2981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProceedtoCheckout -->
+        <test-method signature="VerifyCheckShippingUrl()[pri:16, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:50:01 IST" name="VerifyCheckShippingUrl" finished-at="2024-07-20T13:50:01 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifyUrltoSearchProduct, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogInSubmit, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetPwd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAddtoCartDropdown, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdAlertMsg, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySearchedEntry, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyRedirecttoProductItem, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyGetSearchedProd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetEmail, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdColor, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyaddtocartButton, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAssertProdEntryandPage, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdSize" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCheckShippingUrl -->
+        <test-method signature="VerifyShippingOrder()[pri:0, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:50:01 IST" name="VerifyShippingOrder" finished-at="2024-07-20T13:50:01 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifyCheckShippingUrl, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyUrltoSearchProduct, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogInSubmit, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetPwd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAddtoCartDropdown, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProceedtoCheckout, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdAlertMsg, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySearchedEntry, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyRedirecttoProductItem, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyGetSearchedProd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetEmail, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdColor, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyaddtocartButton, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAssertProdEntryandPage, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdSize" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyShippingOrder -->
+        <test-method signature="VerifyClickNext()[pri:0, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:50:01 IST" name="VerifyClickNext" finished-at="2024-07-20T13:50:05 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifyShippingOrder, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyCheckShippingUrl, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyUrltoSearchProduct, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogInSubmit, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetPwd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAddtoCartDropdown, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProceedtoCheckout, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdAlertMsg, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySearchedEntry, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyRedirecttoProductItem, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyGetSearchedProd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetEmail, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdColor, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyaddtocartButton, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAssertProdEntryandPage, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdSize" duration-ms="3463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyClickNext -->
+        <test-method signature="VerifycheckUrl()[pri:0, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:50:05 IST" name="VerifycheckUrl" finished-at="2024-07-20T13:50:07 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifyShippingOrder, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyCheckShippingUrl, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyUrltoSearchProduct, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogInSubmit, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetPwd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAddtoCartDropdown, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProceedtoCheckout, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdAlertMsg, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySearchedEntry, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyRedirecttoProductItem, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyGetSearchedProd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyClickNext, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetEmail, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdColor, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyaddtocartButton, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAssertProdEntryandPage, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdSize" duration-ms="2019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifycheckUrl -->
+        <test-method signature="VerifyPlaceOrderButton()[pri:0, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:50:07 IST" name="VerifyPlaceOrderButton" finished-at="2024-07-20T13:50:09 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifyShippingOrder, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyCheckShippingUrl, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyUrltoSearchProduct, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogInSubmit, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetPwd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAddtoCartDropdown, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProceedtoCheckout, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdAlertMsg, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySearchedEntry, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyRedirecttoProductItem, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyGetSearchedProd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyClickNext, com.mystore.testcases.TC_ProductPaymentPageTest.VerifycheckUrl, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetEmail, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdColor, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyaddtocartButton, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAssertProdEntryandPage, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdSize" duration-ms="2216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPlaceOrderButton -->
+        <test-method signature="VerifycheckoutSuccess()[pri:0, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:50:09 IST" name="VerifycheckoutSuccess" finished-at="2024-07-20T13:50:13 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifyShippingOrder, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyCheckShippingUrl, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyUrltoSearchProduct, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogInSubmit, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyPlaceOrderButton, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetPwd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAddtoCartDropdown, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProceedtoCheckout, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdAlertMsg, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySearchedEntry, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyRedirecttoProductItem, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyGetSearchedProd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyClickNext, com.mystore.testcases.TC_ProductPaymentPageTest.VerifycheckUrl, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetEmail, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdColor, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyaddtocartButton, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAssertProdEntryandPage, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdSize" duration-ms="3466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifycheckoutSuccess -->
+        <test-method signature="VerifyClickOrderNumber()[pri:0, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:50:13 IST" name="VerifyClickOrderNumber" finished-at="2024-07-20T13:50:15 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifyShippingOrder, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyCheckShippingUrl, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyUrltoSearchProduct, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogInSubmit, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyPlaceOrderButton, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetPwd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAddtoCartDropdown, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProceedtoCheckout, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdAlertMsg, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySearchedEntry, com.mystore.testcases.TC_ProductPaymentPageTest.VerifycheckoutSuccess, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyRedirecttoProductItem, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyGetSearchedProd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyClickNext, com.mystore.testcases.TC_ProductPaymentPageTest.VerifycheckUrl, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetEmail, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdColor, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyaddtocartButton, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAssertProdEntryandPage, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdSize" duration-ms="1977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyClickOrderNumber -->
+        <test-method signature="VerifyPrintOrder()[pri:0, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:50:15 IST" name="VerifyPrintOrder" finished-at="2024-07-20T13:50:15 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifyShippingOrder, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyCheckShippingUrl, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyUrltoSearchProduct, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogInSubmit, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyPlaceOrderButton, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyClickOrderNumber, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetPwd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAddtoCartDropdown, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProceedtoCheckout, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdAlertMsg, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySearchedEntry, com.mystore.testcases.TC_ProductPaymentPageTest.VerifycheckoutSuccess, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyRedirecttoProductItem, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyGetSearchedProd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyClickNext, com.mystore.testcases.TC_ProductPaymentPageTest.VerifycheckUrl, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetEmail, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdColor, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyaddtocartButton, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAssertProdEntryandPage, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdSize" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPrintOrder -->
+        <test-method signature="VerifyCloseDriver()[pri:0, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:50:15 IST" name="VerifyCloseDriver" finished-at="2024-07-20T13:50:15 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifyShippingOrder, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyCheckShippingUrl, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyUrltoSearchProduct, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogInSubmit, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyPlaceOrderButton, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyClickOrderNumber, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetPwd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAddtoCartDropdown, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProceedtoCheckout, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdAlertMsg, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySearchedEntry, com.mystore.testcases.TC_ProductPaymentPageTest.VerifycheckoutSuccess, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyRedirecttoProductItem, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyGetSearchedProd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyClickNext, com.mystore.testcases.TC_ProductPaymentPageTest.VerifycheckUrl, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetEmail, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyPrintOrder, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdColor, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyaddtocartButton, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAssertProdEntryandPage, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdSize" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCloseDriver -->
+        <test-method signature="VerifyViewOrderId()[pri:0, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:50:15 IST" name="VerifyViewOrderId" finished-at="2024-07-20T13:50:15 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifyShippingOrder, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyCheckShippingUrl, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyUrltoSearchProduct, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogInSubmit, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyPlaceOrderButton, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyClickOrderNumber, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetPwd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAddtoCartDropdown, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProceedtoCheckout, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdAlertMsg, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySearchedEntry, com.mystore.testcases.TC_ProductPaymentPageTest.VerifycheckoutSuccess, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyCloseDriver, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyRedirecttoProductItem, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyGetSearchedProd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyClickNext, com.mystore.testcases.TC_ProductPaymentPageTest.VerifycheckUrl, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetEmail, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyPrintOrder, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdColor, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyaddtocartButton, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAssertProdEntryandPage, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdSize" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyViewOrderId -->
+        <test-method signature="VerifyDropdownLogout()[pri:0, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:50:15 IST" name="VerifyDropdownLogout" finished-at="2024-07-20T13:50:15 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifyShippingOrder, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogInSubmit, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProceedtoCheckout, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySearchedEntry, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyCloseDriver, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyViewOrderId, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyGetSearchedProd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyClickNext, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetEmail, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAssertProdEntryandPage, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdSize, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyCheckShippingUrl, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyUrltoSearchProduct, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyPlaceOrderButton, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyClickOrderNumber, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetPwd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAddtoCartDropdown, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdAlertMsg, com.mystore.testcases.TC_ProductPaymentPageTest.VerifycheckoutSuccess, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyRedirecttoProductItem, com.mystore.testcases.TC_ProductPaymentPageTest.VerifycheckUrl, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyPrintOrder, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdColor, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyaddtocartButton" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDropdownLogout -->
+        <test-method signature="VerifylogoutButton()[pri:0, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:50:15 IST" name="VerifylogoutButton" finished-at="2024-07-20T13:50:17 IST" depends-on-methods="com.mystore.testcases.TC_ProductPaymentPageTest.VerifyShippingOrder, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogInSubmit, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyLogIn, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProceedtoCheckout, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySearchedEntry, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyCloseDriver, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyViewOrderId, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyGetSearchedProd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyClickNext, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetEmail, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAssertProdEntryandPage, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdSize, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyDropdownLogout, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyCheckShippingUrl, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyUrltoSearchProduct, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyPlaceOrderButton, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyClickOrderNumber, com.mystore.testcases.TC_ProductPaymentPageTest.VerifySetPwd, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyAddtoCartDropdown, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdAlertMsg, com.mystore.testcases.TC_ProductPaymentPageTest.VerifycheckoutSuccess, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyRedirecttoProductItem, com.mystore.testcases.TC_ProductPaymentPageTest.VerifycheckUrl, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyPrintOrder, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyProdColor, com.mystore.testcases.TC_ProductPaymentPageTest.VerifyaddtocartButton" duration-ms="2050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifylogoutButton -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.testcases.TC_ProductPaymentPageTest@448c8166]" started-at="2024-07-20T13:50:17 IST" name="teardown" finished-at="2024-07-20T13:50:18 IST" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mystore.testcases.TC_ProductPaymentPageTest -->
+    </test> <!-- BuyProductTest -->
+  </suite> <!-- Suite -->
+</testng-results>

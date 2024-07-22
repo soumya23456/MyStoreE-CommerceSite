@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\eworkspace\MystoreV1\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">46 methods,   46 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifyAddtoCartDropdown">VerifyAddtoCartDropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifyAssertProdEntryandPage">VerifyAssertProdEntryandPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_SearchProductPageTest" class="method navigator-link" hash-for-method="VerifyAssertSearchEntry">VerifyAssertSearchEntry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifyCheckShippingUrl">VerifyCheckShippingUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifyClickNext">VerifyClickNext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifyClickOrderNumber">VerifyClickOrderNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifyCloseDriver">VerifyCloseDriver</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifyDropdownLogout">VerifyDropdownLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_SearchProductPageTest" class="method navigator-link" hash-for-method="VerifyEmailLoggingIn">VerifyEmailLoggingIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifyGetSearchedProd">VerifyGetSearchedProd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifyLogIn">VerifyLogIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifyLogInOpen">VerifyLogInOpen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifyLogInSubmit">VerifyLogInSubmit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_SearchProductPageTest" class="method navigator-link" hash-for-method="VerifyLogin">VerifyLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_SearchProductPageTest" class="method navigator-link" hash-for-method="VerifyLoginPageOpen">VerifyLoginPageOpen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_SearchProductPageTest" class="method navigator-link" hash-for-method="VerifyNavigatetoLogin">VerifyNavigatetoLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifyPlaceOrderButton">VerifyPlaceOrderButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifyPrintOrder">VerifyPrintOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifyProceedtoCheckout">VerifyProceedtoCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifyProdAlertMsg">VerifyProdAlertMsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifyProdColor">VerifyProdColor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifyProdSize">VerifyProdSize</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_SearchProductPageTest" class="method navigator-link" hash-for-method="VerifyPwdLoggingIn">VerifyPwdLoggingIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_SearchProductPageTest" class="method navigator-link" hash-for-method="VerifyRedirectSearch">VerifyRedirectSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifyRedirecttoProductItem">VerifyRedirecttoProductItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_SearchProductPageTest" class="method navigator-link" hash-for-method="VerifySearchEntry">VerifySearchEntry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_SearchProductPageTest" class="method navigator-link" hash-for-method="VerifySearchProductFound">VerifySearchProductFound</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifySearchedEntry">VerifySearchedEntry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_SearchProductPageTest" class="method navigator-link" hash-for-method="VerifySearchedProductLink">VerifySearchedProductLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifySetEmail">VerifySetEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifySetPwd">VerifySetPwd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifyShippingOrder">VerifyShippingOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_SigninPageTest" class="method navigator-link" hash-for-method="VerifySignIn">VerifySignIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_SearchProductPageTest" class="method navigator-link" hash-for-method="VerifySignInButtonLoggingIn">VerifySignInButtonLoggingIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_DD_SigninPageTest" class="method navigator-link" hash-for-method="VerifySigninPage( ,  ,  )">VerifySigninPage( ,  ,  )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_DD_SigninPageTest" class="method navigator-link" hash-for-method="VerifySigninPage(johDrew@example.com, Password123,  )">VerifySigninPage(johDrew@example.com, Password123,  )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_DD_SigninPageTest" class="method navigator-link" hash-for-method="VerifySigninPage(johnDrew@test.com, password,  )">VerifySigninPage(johnDrew@test.com, password,  )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_DD_SigninPageTest" class="method navigator-link" hash-for-method="VerifySigninPage(johnDrew@example.com, Password123, John Drew)">VerifySigninPage(johnDrew@example.com, Password123, John Drew)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_DD_SigninPageTest" class="method navigator-link" hash-for-method="VerifySigninPage(johnDrew@test.com, Password123, John Drew)">VerifySigninPage(johnDrew@test.com, Password123, John Drew)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_SearchProductPageTest" class="method navigator-link" hash-for-method="VerifyUrlOpen">VerifyUrlOpen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifyUrltoSearchProduct">VerifyUrltoSearchProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifyViewOrderId">VerifyViewOrderId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifyaddtocartButton">VerifyaddtocartButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifycheckUrl">VerifycheckUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifycheckoutSuccess">VerifycheckoutSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mystore.testcases.TC_ProductPaymentPageTest" class="method navigator-link" hash-for-method="VerifylogoutButton">VerifylogoutButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mystore.testcases.TC_DD_SigninPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySigninPage( ,  ,  )">
+                  </a> <!-- VerifySigninPage( ,  ,  ) -->
+                  <span class="method-name">VerifySigninPage</span>
+                  <span class="parameters">( , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySigninPage(johDrew@example.com, Password123,  )">
+                  </a> <!-- VerifySigninPage(johDrew@example.com, Password123,  ) -->
+                  <span class="method-name">VerifySigninPage</span>
+                  <span class="parameters">(johDrew@example.com,Password123, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySigninPage(johnDrew@test.com, password,  )">
+                  </a> <!-- VerifySigninPage(johnDrew@test.com, password,  ) -->
+                  <span class="method-name">VerifySigninPage</span>
+                  <span class="parameters">(johnDrew@test.com,password, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySigninPage(johnDrew@example.com, Password123, John Drew)">
+                  </a> <!-- VerifySigninPage(johnDrew@example.com, Password123, John Drew) -->
+                  <span class="method-name">VerifySigninPage</span>
+                  <span class="parameters">(johnDrew@example.com,Password123,John Drew)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySigninPage(johnDrew@test.com, Password123, John Drew)">
+                  </a> <!-- VerifySigninPage(johnDrew@test.com, Password123, John Drew) -->
+                  <span class="method-name">VerifySigninPage</span>
+                  <span class="parameters">(johnDrew@test.com,Password123,John Drew)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mystore.testcases.TC_SigninPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySignIn">
+                  </a> <!-- VerifySignIn -->
+                  <span class="method-name">VerifySignIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mystore.testcases.TC_SearchProductPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAssertSearchEntry">
+                  </a> <!-- VerifyAssertSearchEntry -->
+                  <span class="method-name">VerifyAssertSearchEntry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyEmailLoggingIn">
+                  </a> <!-- VerifyEmailLoggingIn -->
+                  <span class="method-name">VerifyEmailLoggingIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLogin">
+                  </a> <!-- VerifyLogin -->
+                  <span class="method-name">VerifyLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginPageOpen">
+                  </a> <!-- VerifyLoginPageOpen -->
+                  <span class="method-name">VerifyLoginPageOpen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyNavigatetoLogin">
+                  </a> <!-- VerifyNavigatetoLogin -->
+                  <span class="method-name">VerifyNavigatetoLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyPwdLoggingIn">
+                  </a> <!-- VerifyPwdLoggingIn -->
+                  <span class="method-name">VerifyPwdLoggingIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRedirectSearch">
+                  </a> <!-- VerifyRedirectSearch -->
+                  <span class="method-name">VerifyRedirectSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySearchEntry">
+                  </a> <!-- VerifySearchEntry -->
+                  <span class="method-name">VerifySearchEntry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySearchProductFound">
+                  </a> <!-- VerifySearchProductFound -->
+                  <span class="method-name">VerifySearchProductFound</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySearchedProductLink">
+                  </a> <!-- VerifySearchedProductLink -->
+                  <span class="method-name">VerifySearchedProductLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySignInButtonLoggingIn">
+                  </a> <!-- VerifySignInButtonLoggingIn -->
+                  <span class="method-name">VerifySignInButtonLoggingIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyUrlOpen">
+                  </a> <!-- VerifyUrlOpen -->
+                  <span class="method-name">VerifyUrlOpen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mystore.testcases.TC_ProductPaymentPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAddtoCartDropdown">
+                  </a> <!-- VerifyAddtoCartDropdown -->
+                  <span class="method-name">VerifyAddtoCartDropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAssertProdEntryandPage">
+                  </a> <!-- VerifyAssertProdEntryandPage -->
+                  <span class="method-name">VerifyAssertProdEntryandPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyCheckShippingUrl">
+                  </a> <!-- VerifyCheckShippingUrl -->
+                  <span class="method-name">VerifyCheckShippingUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyClickNext">
+                  </a> <!-- VerifyClickNext -->
+                  <span class="method-name">VerifyClickNext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyClickOrderNumber">
+                  </a> <!-- VerifyClickOrderNumber -->
+                  <span class="method-name">VerifyClickOrderNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyCloseDriver">
+                  </a> <!-- VerifyCloseDriver -->
+                  <span class="method-name">VerifyCloseDriver</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyDropdownLogout">
+                  </a> <!-- VerifyDropdownLogout -->
+                  <span class="method-name">VerifyDropdownLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyGetSearchedProd">
+                  </a> <!-- VerifyGetSearchedProd -->
+                  <span class="method-name">VerifyGetSearchedProd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLogIn">
+                  </a> <!-- VerifyLogIn -->
+                  <span class="method-name">VerifyLogIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLogInOpen">
+                  </a> <!-- VerifyLogInOpen -->
+                  <span class="method-name">VerifyLogInOpen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLogInSubmit">
+                  </a> <!-- VerifyLogInSubmit -->
+                  <span class="method-name">VerifyLogInSubmit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyPlaceOrderButton">
+                  </a> <!-- VerifyPlaceOrderButton -->
+                  <span class="method-name">VerifyPlaceOrderButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyPrintOrder">
+                  </a> <!-- VerifyPrintOrder -->
+                  <span class="method-name">VerifyPrintOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyProceedtoCheckout">
+                  </a> <!-- VerifyProceedtoCheckout -->
+                  <span class="method-name">VerifyProceedtoCheckout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyProdAlertMsg">
+                  </a> <!-- VerifyProdAlertMsg -->
+                  <span class="method-name">VerifyProdAlertMsg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyProdColor">
+                  </a> <!-- VerifyProdColor -->
+                  <span class="method-name">VerifyProdColor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyProdSize">
+                  </a> <!-- VerifyProdSize -->
+                  <span class="method-name">VerifyProdSize</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRedirecttoProductItem">
+                  </a> <!-- VerifyRedirecttoProductItem -->
+                  <span class="method-name">VerifyRedirecttoProductItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySearchedEntry">
+                  </a> <!-- VerifySearchedEntry -->
+                  <span class="method-name">VerifySearchedEntry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySetEmail">
+                  </a> <!-- VerifySetEmail -->
+                  <span class="method-name">VerifySetEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySetPwd">
+                  </a> <!-- VerifySetPwd -->
+                  <span class="method-name">VerifySetPwd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyShippingOrder">
+                  </a> <!-- VerifyShippingOrder -->
+                  <span class="method-name">VerifyShippingOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyUrltoSearchProduct">
+                  </a> <!-- VerifyUrltoSearchProduct -->
+                  <span class="method-name">VerifyUrltoSearchProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyViewOrderId">
+                  </a> <!-- VerifyViewOrderId -->
+                  <span class="method-name">VerifyViewOrderId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyaddtocartButton">
+                  </a> <!-- VerifyaddtocartButton -->
+                  <span class="method-name">VerifyaddtocartButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifycheckUrl">
+                  </a> <!-- VerifycheckUrl -->
+                  <span class="method-name">VerifycheckUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifycheckoutSuccess">
+                  </a> <!-- VerifycheckoutSuccess -->
+                  <span class="method-name">VerifycheckoutSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifylogoutButton">
+                  </a> <!-- VerifylogoutButton -->
+                  <span class="method-name">VerifylogoutButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\eworkspace\MystoreV1\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.mystore.utilities.ExtendListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;CreateAccountTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.mystore.testcases.TC_SignupPageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;createNewAccountTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.mystore.testcases.TC_SignupPageTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CreateAccountTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SigninTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.mystore.testcases.TC_SigninPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SigninTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;DataDrivenTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.mystore.testcases.TC_DD_SigninPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DataDrivenTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SearchProductTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.mystore.testcases.TC_SearchProductPageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;VerifyUrlOpen&quot;/&gt;
+          &lt;include name=&quot;VerifyLogin&quot;/&gt;
+          &lt;include name=&quot;VerifyNavigatetoLogin&quot;/&gt;
+          &lt;include name=&quot;VerifyLoginPageOpen&quot;/&gt;
+          &lt;include name=&quot;VerifyEmailLoggingIn&quot;/&gt;
+          &lt;include name=&quot;VerifyPwdLoggingIn&quot;/&gt;
+          &lt;include name=&quot;VerifySignInButtonLoggingIn&quot;/&gt;
+          &lt;include name=&quot;VerifySearchEntry&quot;/&gt;
+          &lt;include name=&quot;VerifyRedirectSearch&quot;/&gt;
+          &lt;include name=&quot;VerifyAssertSearchEntry&quot;/&gt;
+          &lt;include name=&quot;VerifySearchProductFound&quot;/&gt;
+          &lt;include name=&quot;VerifySearchedProductLink&quot;/&gt;
+          &lt;exclude name=&quot;VerifySizeofProductPage&quot;/&gt;
+          &lt;exclude name=&quot;VerifyColorofProduct&quot;/&gt;
+          &lt;exclude name=&quot;VerifyProdAddtoCart&quot;/&gt;
+          &lt;exclude name=&quot;VerifyProdAddedToCartAlertPresent&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.mystore.testcases.TC_SearchProductPageTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SearchProductTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;BuyProductTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.mystore.testcases.TC_ProductPaymentPageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;VerifyUrltoSearchProduct&quot;/&gt;
+          &lt;include name=&quot;VerifyLogIn&quot;/&gt;
+          &lt;include name=&quot;VerifyLogInOpen&quot;/&gt;
+          &lt;include name=&quot;VerifySetEmail&quot;/&gt;
+          &lt;include name=&quot;VerifySetPwd&quot;/&gt;
+          &lt;include name=&quot;VerifyLogInSubmit&quot;/&gt;
+          &lt;include name=&quot;VerifySearchedEntry&quot;/&gt;
+          &lt;include name=&quot;VerifyRedirecttoProductItem&quot;/&gt;
+          &lt;include name=&quot;VerifyAssertProdEntryandPage&quot;/&gt;
+          &lt;include name=&quot;VerifyGetSearchedProd&quot;/&gt;
+          &lt;include name=&quot;VerifyProdSize&quot;/&gt;
+          &lt;include name=&quot;VerifyProdColor&quot;/&gt;
+          &lt;include name=&quot;VerifyaddtocartButton&quot;/&gt;
+          &lt;include name=&quot;VerifyProdAlertMsg&quot;/&gt;
+          &lt;include name=&quot;VerifyAddtoCartDropdown&quot;/&gt;
+          &lt;include name=&quot;VerifyProceedtoCheckout&quot;/&gt;
+          &lt;include name=&quot;VerifyCheckShippingUrl&quot;/&gt;
+          &lt;include name=&quot;VerifyShippingOrder&quot;/&gt;
+          &lt;include name=&quot;VerifyClickNext&quot;/&gt;
+          &lt;include name=&quot;VerifycheckUrl&quot;/&gt;
+          &lt;include name=&quot;VerifyPlaceOrderButton&quot;/&gt;
+          &lt;include name=&quot;VerifycheckoutSuccess&quot;/&gt;
+          &lt;include name=&quot;VerifyClickOrderNumber&quot;/&gt;
+          &lt;include name=&quot;VerifyPrintOrder&quot;/&gt;
+          &lt;include name=&quot;VerifyCloseDriver&quot;/&gt;
+          &lt;include name=&quot;VerifyViewOrderId&quot;/&gt;
+          &lt;include name=&quot;VerifyDropdownLogout&quot;/&gt;
+          &lt;include name=&quot;VerifylogoutButton&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.mystore.testcases.TC_ProductPaymentPageTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BuyProductTest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">CreateAccountTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SigninTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DataDrivenTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SearchProductTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BuyProductTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(46);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'VerifySigninPage')
+data.setCell(0, 2, 'com.mystore.testcases.TC_DD_SigninPageTest')
+data.setCell(0, 3, 21793);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifySigninPage')
+data.setCell(1, 2, 'com.mystore.testcases.TC_DD_SigninPageTest')
+data.setCell(1, 3, 19962);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifySigninPage')
+data.setCell(2, 2, 'com.mystore.testcases.TC_DD_SigninPageTest')
+data.setCell(2, 3, 16305);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifySigninPage')
+data.setCell(3, 2, 'com.mystore.testcases.TC_DD_SigninPageTest')
+data.setCell(3, 3, 15871);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifySigninPage')
+data.setCell(4, 2, 'com.mystore.testcases.TC_DD_SigninPageTest')
+data.setCell(4, 3, 13880);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifySignIn')
+data.setCell(5, 2, 'com.mystore.testcases.TC_SigninPageTest')
+data.setCell(5, 3, 6131);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifycheckoutSuccess')
+data.setCell(6, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(6, 3, 3466);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'VerifyClickNext')
+data.setCell(7, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(7, 3, 3463);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'VerifyProceedtoCheckout')
+data.setCell(8, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(8, 3, 2981);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'VerifySignInButtonLoggingIn')
+data.setCell(9, 2, 'com.mystore.testcases.TC_SearchProductPageTest')
+data.setCell(9, 3, 2789);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'VerifyProdAlertMsg')
+data.setCell(10, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(10, 3, 2613);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'VerifyPlaceOrderButton')
+data.setCell(11, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(11, 3, 2216);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'VerifySearchEntry')
+data.setCell(12, 2, 'com.mystore.testcases.TC_SearchProductPageTest')
+data.setCell(12, 3, 2060);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'VerifylogoutButton')
+data.setCell(13, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(13, 3, 2050);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'VerifycheckUrl')
+data.setCell(14, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(14, 3, 2019);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'VerifyLogInSubmit')
+data.setCell(15, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(15, 3, 1985);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'VerifyClickOrderNumber')
+data.setCell(16, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(16, 3, 1977);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'VerifySearchedEntry')
+data.setCell(17, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(17, 3, 1958);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'VerifyLogin')
+data.setCell(18, 2, 'com.mystore.testcases.TC_SearchProductPageTest')
+data.setCell(18, 3, 1811);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'VerifyLogIn')
+data.setCell(19, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(19, 3, 1146);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'VerifyGetSearchedProd')
+data.setCell(20, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(20, 3, 665);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'VerifySearchProductFound')
+data.setCell(21, 2, 'com.mystore.testcases.TC_SearchProductPageTest')
+data.setCell(21, 3, 613);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'VerifyPrintOrder')
+data.setCell(22, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(22, 3, 273);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'VerifySetEmail')
+data.setCell(23, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(23, 3, 174);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'VerifyEmailLoggingIn')
+data.setCell(24, 2, 'com.mystore.testcases.TC_SearchProductPageTest')
+data.setCell(24, 3, 144);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'VerifyAddtoCartDropdown')
+data.setCell(25, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(25, 3, 130);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'VerifyDropdownLogout')
+data.setCell(26, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(26, 3, 122);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'VerifyProdSize')
+data.setCell(27, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(27, 3, 121);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'VerifyaddtocartButton')
+data.setCell(28, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(28, 3, 114);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'VerifyProdColor')
+data.setCell(29, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(29, 3, 109);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'VerifyPwdLoggingIn')
+data.setCell(30, 2, 'com.mystore.testcases.TC_SearchProductPageTest')
+data.setCell(30, 3, 99);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'VerifySetPwd')
+data.setCell(31, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(31, 3, 99);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'VerifyAssertProdEntryandPage')
+data.setCell(32, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(32, 3, 84);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'VerifyShippingOrder')
+data.setCell(33, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(33, 3, 67);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'VerifyAssertSearchEntry')
+data.setCell(34, 2, 'com.mystore.testcases.TC_SearchProductPageTest')
+data.setCell(34, 3, 66);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'VerifyCloseDriver')
+data.setCell(35, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(35, 3, 53);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'VerifyRedirectSearch')
+data.setCell(36, 2, 'com.mystore.testcases.TC_SearchProductPageTest')
+data.setCell(36, 3, 30);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'VerifyCheckShippingUrl')
+data.setCell(37, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(37, 3, 30);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'VerifyLogInOpen')
+data.setCell(38, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(38, 3, 28);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'VerifyRedirecttoProductItem')
+data.setCell(39, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(39, 3, 27);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'VerifySearchedProductLink')
+data.setCell(40, 2, 'com.mystore.testcases.TC_SearchProductPageTest')
+data.setCell(40, 3, 23);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'VerifyViewOrderId')
+data.setCell(41, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(41, 3, 23);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'VerifyUrltoSearchProduct')
+data.setCell(42, 2, 'com.mystore.testcases.TC_ProductPaymentPageTest')
+data.setCell(42, 3, 15);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'VerifyUrlOpen')
+data.setCell(43, 2, 'com.mystore.testcases.TC_SearchProductPageTest')
+data.setCell(43, 3, 14);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'VerifyLoginPageOpen')
+data.setCell(44, 2, 'com.mystore.testcases.TC_SearchProductPageTest')
+data.setCell(44, 3, 10);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'VerifyNavigatetoLogin')
+data.setCell(45, 2, 'com.mystore.testcases.TC_SearchProductPageTest')
+data.setCell(45, 3, 1);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">7 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.mystore.testcases.TC_SignupPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyNewAcc</span>
+                <br/>
+                <span class="ignored-method-name">verifysignupAccount</span>
+                <br/>
+                <span class="ignored-method-name">verifylogOut</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.mystore.testcases.TC_SearchProductPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">VerifyProdAddtoCart</span>
+                <br/>
+                <span class="ignored-method-name">VerifyColorofProduct</span>
+                <br/>
+                <span class="ignored-method-name">VerifyProdAddedToCartAlertPresent</span>
+                <br/>
+                <span class="ignored-method-name">VerifySizeofProductPage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mystore.testcases.TC_SigninPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">VerifySignIn</span>
+                <span class="method-start">6356 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">12515 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mystore.testcases.TC_DD_SigninPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">13153 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">VerifySigninPage(johnDrew@example.com, Password123, John Drew)</span>
+                <span class="method-start">18871 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifySigninPage(johnDrew@test.com, Password123, John Drew)</span>
+                <span class="method-start">38836 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifySigninPage( ,  ,  )</span>
+                <span class="method-start">60631 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifySigninPage(johDrew@example.com, Password123,  )</span>
+                <span class="method-start">74513 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifySigninPage(johnDrew@test.com, password,  )</span>
+                <span class="method-start">90821 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">106694 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mystore.testcases.TC_SearchProductPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">107101 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">VerifyUrlOpen</span>
+                <span class="method-start">112259 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyLogin</span>
+                <span class="method-start">112276 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyNavigatetoLogin</span>
+                <span class="method-start">114091 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginPageOpen</span>
+                <span class="method-start">114094 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyEmailLoggingIn</span>
+                <span class="method-start">114105 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyPwdLoggingIn</span>
+                <span class="method-start">114251 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifySignInButtonLoggingIn</span>
+                <span class="method-start">114351 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifySearchEntry</span>
+                <span class="method-start">117142 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyRedirectSearch</span>
+                <span class="method-start">119204 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyAssertSearchEntry</span>
+                <span class="method-start">119236 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifySearchProductFound</span>
+                <span class="method-start">119304 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifySearchedProductLink</span>
+                <span class="method-start">119919 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">119942 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mystore.testcases.TC_ProductPaymentPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">120267 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">VerifyUrltoSearchProduct</span>
+                <span class="method-start">126810 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyLogIn</span>
+                <span class="method-start">126831 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyLogInOpen</span>
+                <span class="method-start">127980 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifySetEmail</span>
+                <span class="method-start">128011 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifySetPwd</span>
+                <span class="method-start">128187 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyLogInSubmit</span>
+                <span class="method-start">128287 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifySearchedEntry</span>
+                <span class="method-start">130275 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyRedirecttoProductItem</span>
+                <span class="method-start">132236 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyAssertProdEntryandPage</span>
+                <span class="method-start">132267 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyGetSearchedProd</span>
+                <span class="method-start">132355 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyProdSize</span>
+                <span class="method-start">133024 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyProdColor</span>
+                <span class="method-start">133149 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyaddtocartButton</span>
+                <span class="method-start">133262 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyProdAlertMsg</span>
+                <span class="method-start">133379 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyAddtoCartDropdown</span>
+                <span class="method-start">135996 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyProceedtoCheckout</span>
+                <span class="method-start">136130 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyCheckShippingUrl</span>
+                <span class="method-start">139115 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyShippingOrder</span>
+                <span class="method-start">139149 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyClickNext</span>
+                <span class="method-start">139219 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifycheckUrl</span>
+                <span class="method-start">142687 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyPlaceOrderButton</span>
+                <span class="method-start">144710 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifycheckoutSuccess</span>
+                <span class="method-start">146931 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyClickOrderNumber</span>
+                <span class="method-start">150401 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyPrintOrder</span>
+                <span class="method-start">152383 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyCloseDriver</span>
+                <span class="method-start">152661 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyViewOrderId</span>
+                <span class="method-start">152720 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyDropdownLogout</span>
+                <span class="method-start">152747 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifylogoutButton</span>
+                <span class="method-start">152873 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">154925 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
